@@ -1,0 +1,10 @@
+{
+    "tables": [
+      {
+        "table_name": "homedepot",
+        "file_patterns": [
+          "gs://BUCKET/home_depot_data_1_2021_12.csv"
+        ]
+      }
+    ]
+  }
