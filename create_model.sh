@@ -10,5 +10,5 @@ INPUT (prompt STRING(MAX)) \
 OUTPUT (content STRING(MAX)) \
 REMOTE \
 OPTIONS ( \
-endpoint = '//aiplatform.googleapis.com/projects/'${PROJECT_ID}'/locations/'${LOCATION}'/publishers/google/models/text-bison'
+endpoint = "'"'"//aiplatform.googleapis.com/projects/${PROJECT_ID}/locations/${LOCATION}/publishers/google/models/text-bison"'"'"
 );"
