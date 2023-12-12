@@ -1,4 +1,4 @@
-#Product Catalog Sample Dataset
+# Product Catalog Sample Dataset
 Source: Kaggle
 https://www.kaggle.com/datasets/thedevastator/the-home-depot-products-dataset/
 
