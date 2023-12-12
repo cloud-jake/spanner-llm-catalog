@@ -3,6 +3,7 @@
 LOCATION="us-central1"
 PROJECT_ID=$(gcloud config get-value project)
 
+gcloud services enable aiplatform.googleapis.com
 
 gcloud spanner databases ddl update productdb --instance=productcatalog \
 --ddl="CREATE MODEL TextBison \
